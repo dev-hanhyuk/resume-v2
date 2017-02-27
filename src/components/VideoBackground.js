@@ -15,14 +15,10 @@ const styles = {
 
 export default () => (
   <section>
-    <video style={styles.video} loop autoPlay controls>
+    <video style={styles.video} loop autoPlay>
       <source src="/bg-video.mp4" type="video/mp4" />
       <source src="/bg-video.mp4" type="video/ogg" />
       Your browser does not support the video tag.
     </video>
-
-
   </section>
 )
-
-

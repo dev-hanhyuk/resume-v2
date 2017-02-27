@@ -27,7 +27,7 @@ export default class extends Component {
         <h2 style={{fontSize: '4vh', color: '#FFF', textAlign: 'center', fontWeight: 300}}>Software Developer</h2>
 
         <div className="row center-xs" style={{marginTop: '10vh'}}>
-          <HoverButton buttonText="Go to Showcase" clickHandler={this.gotoShowcase}/>
+          <a href="#showcase"><HoverButton buttonText="Go to Showcase" clickHandler={this.gotoShowcase}/></a>
         </div>
 
         <div style={{height: '30vh'}}></div>

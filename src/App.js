@@ -41,10 +41,10 @@ class App extends Component {
 
         <VideoBackground />
 
-        <section style={styles.section}>
-          <Intro />
-          <News />
-          <About />
+        <section style={styles.section} className="row">
+          <div className="col-xs-12"><Intro /></div>
+          <div className="col-xs-12 box-shadow" style={{backgroundColor: '#FFF'}}><News /></div>
+          <div className="col-xs-12"><About /></div>
           <Showcase />
           <Tech />
           <Gotcha />

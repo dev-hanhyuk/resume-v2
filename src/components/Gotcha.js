@@ -22,15 +22,15 @@ export default () => (
           <div className="col-xs-10 col-sm-5" style={{transform: 'translateZ(80px) scale(0.8)'}}>
             <div className="row" style={{height: '30vh'}}></div>
             <div className="row"><h1 style={{fontSize: '5vh', marginTop: 0, marginBottom: '2vh', color: '#00bbdc'}}>Gotcha!</h1></div>
-            <div className="row"><p style={{fontSize: '1rem', lineHeight: 1.5, color: '#FFF'}}>Click on the title to access the github. Tutorial is included as markdown format for each git branch.</p></div>
+            <div className="row"><p style={{fontSize: '1rem', lineHeight: 1.5, color: '#FFF'}}>Click on the titles to access the github tutorials. The tutorials are written as markdown format included in each git branch.</p></div>
 
-            <div className="row"><h2 style={{fontSize: '3vh', color: '#00bbdc', marginBottom: '1vh'}}>Machine Learning: Recomemendation pt.1</h2></div>
-            <div className="row"><p style={{fontSize: '1rem', lineHeight: 1.5, color: '#FFF'}}>Inspired by amazing developers Burak Kanber and Mahmud Ridwan, I implemented a back-end collective suggestion API based on user similarity using node and Postgres.</p></div>
+            <div className="row"><a target="_blank" href="https://github.com/dev-hanhyuk/recommendation" style={{textDecoration: 'none'}}><h2 style={{fontSize: '3vh', color: '#00bbdc', marginBottom: '1vh'}}>Machine Learning: Recomemendation pt.1</h2></a></div>
+            <div className="row"><p style={{fontSize: '1rem', lineHeight: 1.5, color: '#FFF'}}>Inspired by amazing developers <a target="_blank" href="https://www.burakkanber.com/tag/ml-in-js/" style={{fontStyle: 'italic', color: '#DDD'}}>Burak Kanber</a> and <a target="_blank" href="https://github.com/hjr265/toptal-recommengine" style={{fontStyle: 'italic', color: '#DDD'}}>Mahmud Ridwan</a>, I elaborated on a back-end collective suggestion API based on user similarity using node and Postgres.</p></div>
 
 
             <div style={{height: '3vh'}}></div>
-            <div className="row"><h2 style={{fontSize: '3vh', color: '#00bbdc', marginBottom: '1vh'}}>Implementation of a simple react/redux app</h2></div>
-            <div className="row"><p style={{fontSize: '1rem', lineHeight: 1.5, color: '#FFF'}}>Create a webpack environment and set up modules for react/redux app development.</p></div>
+            <div className="row"><a target="_blank" href="https://github.com/dev-hanhyuk/react-redux-tutorial" style={{textDecoration: 'none'}}><h2 style={{fontSize: '3vh', color: '#00bbdc', marginBottom: '1vh'}}>Implementation of a simple react/redux app</h2></a></div>
+            <div className="row"><p style={{fontSize: '1rem', lineHeight: 1.5, color: '#FFF'}}>Let's create a webpack environment and set up modules for react/redux app development.</p></div>
           </div>
 
           <div className="col-sm-4">
@@ -46,7 +46,7 @@ export default () => (
 )
 
 /*
-https://github.com/hjr265/toptal-recommengine
+
 https://www.toptal.com/algorithms/predicting-likes-inside-a-simple-recommendation-engine
 
 */
