@@ -49,7 +49,7 @@ export default class extends Component {
         <div className="row center-xs">
           <a name="showcase"><div id="showcase"></div></a>
           <div className="col-xs-12">
-            <div classNamr="row" style={{height: '5vh'}} ></div>
+            <div className="row" style={{height: '5vh'}} ></div>
             <div className="row center-xs"><h1 style={{fontSize: '5vh', marginTop: 0, marginBottom: '2vh', color: '#00bbdc'}}>Showcase</h1></div>
 
 
@@ -59,7 +59,7 @@ export default class extends Component {
 
             <div className="row" style={{height: '5vh'}}></div>
             <Slider {...settings}>
-              { PF.map((pf, idx) => (<img key={idx} src={pf.url} style={{height: '400px'}} className="box-shadow" onClick={() => this.clickPortfolio(idx)}/>))}
+              { PF.map((pf, idx) => (<img key={idx} src={pf.url} style={{height: '400px', marginBottom: '3vh'}} className="box-shadow" onClick={() => this.clickPortfolio(idx)}/>))}
 
             </Slider>
 
