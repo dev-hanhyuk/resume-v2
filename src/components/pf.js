@@ -1,0 +1,8 @@
+const PF = [
+  { url: 'pf/pf-1-sc-cloud.png', title: 'Soundcloud Playroom', description: `This application uses Soundcloud APIs and audio web API to access and share favorite musics among friends. Now you don't get distracted by concerning what tunes you should pick to satisfy everyone in the group, and keep working on your board games with others!`, link: 'https://sc-playroom.herokuapp.com/' },
+  { url: 'pf/pf-2-e-commerce.png', title: 'E-commerce', description: `Built a fullstack e-commerce website by implementing Postgres sequelize association such as order-cart . The app maintains user sessions so that unauthenticated users can purchase items without logging-in.`, link: 'https://e-commerce-dev-han.herokuapp.com/'},
+  { url: 'pf/pf-3-imvue.png', title: 'Imvue', description: `Implemented a database using web API, interfacing Google Maps, and Facebook Oauth for the project, where users can access drawings created in a range of nearby areas, and merge the drawings on top of a camera layer for sharing the drawings, texts, and images with friends.`, link: 'https://www.youtube.com/watch?v=5ak0x3pe30A'},
+  { url: 'pf/pf-4-template-cloner.png', title: 'Template Cloner', description: `Launched a chrome extension designed for front-end developers to extract CSS properties with templates from existing webpages. The application allows users to copy the template containing CSS properties onto a clipboard or codepen.io.`, link: 'https://chrome.google.com/webstore/detail/template-cloner/algcigdlhddkogplednhofopeeafbomm?utm_source=gmail'}
+];
+
+export default PF;
