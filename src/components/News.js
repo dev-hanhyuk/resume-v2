@@ -19,7 +19,7 @@ export default () => (
         <div className="row" style={{height: '5vh'}}></div>
         <div className="row"><h1 style={{fontSize: '5vh', marginTop: 0, marginBottom: '2vh', color: '#00bbdc'}}>What's New?</h1></div>
         <div className="row"><h2 style={{fontSize: '5vh', color: '#00bbdc', marginBottom: '1vh'}}>Soundcloud Playroom</h2></div>
-        <div className="row"><p style={{fontSize: '1rem', lineHeight: 1.5}}>I recently created a music sharing application using Soundcloud API services. Using React/Redux, HTML5 audio web API and firebase, I was able to develop an application in which users are able to combine their favorite playlists into a “playroom” with 4-digit passcode so that the users can add, update and stream tracks in the playroom. It was a rewarding moment when I was able to see the final product in action at a social gathering, not having to worry about who will be the DJ for the night.</p></div>
+        <div className="row"><p style={{fontSize: '1rem', lineHeight: 1.5}}>I recently created a music sharing application using Soundcloud API services. Using React/Redux, HTML5 audio web API and firebase, I was able to develop an application in which users are able to combine their favorite playlists into a “playroom” with 4-digit passcode so that the users can add, update and stream tracks in the playroom. You do not need to worry about who will be the DJ for the night anymore!</p></div>
 
         <div className="row" style={{marginTop: '5vh'}}><a target="_blank" href="https://sc-playroom.herokuapp.com/"><HoverButton buttonText="TRY PLAYROOM"/></a></div>
       </div>
