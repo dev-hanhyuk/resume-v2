@@ -4,7 +4,7 @@ import Footer from './Footer'
 
 const styles={
   header: {
-    height: '100vh'
+    height: '110vh'
   },
   buttonStyle: {
     textDecoration: 'none',
@@ -59,6 +59,7 @@ export default class extends Component {
 
         <div style={{height: '30vh'}}></div>
         <Footer />
+
       </section>
     )
   }
@@ -66,3 +67,4 @@ export default class extends Component {
 
 
 //http://stackoverflow.com/questions/17813719/page-jump-from-div-to-an-anchor
+//
